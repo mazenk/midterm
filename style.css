@@ -1,0 +1,199 @@
+    h1 {
+    text-align: center;
+    font-size: 80px;
+    margin:180px 0 60px 0;
+    color:black;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: 'Arapey', serif; 
+    }
+
+    h2  {
+    text-align: left;
+    font-size: 35px;
+    margin:20px 0 15px 22px;
+    color:black;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: 'Arapey', serif; 
+    }
+
+    h3  {
+
+    border: none;
+    margin: 60px 0 0 80px;
+    color:black;
+    font-size:18px;
+    text-decoration: none;
+    font-family: 'EB Garamond', serif; 
+
+    }
+    h4{
+        float: right;
+        margin: 7% 38% 0 0;
+    }
+
+    body {
+        background-image: url("subtle_dots.png");
+    }
+
+    .button {
+    border: none;
+    padding: 40px 45px 0 45px;
+    color:black;
+    font-size:20px;
+    text-decoration: none;
+    font-family: 'EB Garamond', serif; 
+    }
+
+    .button2 {
+    border: none;
+    margin: 15px 10px 0 20px;
+    padding: 2px 7px 3px 7px;
+    color:black;
+    font-size:16px;
+    text-decoration: none;
+    font-family: 'EB Garamond', serif; 
+
+    }
+
+    .button2:hover {
+        background-color: #F5F5F5;
+    }
+
+    .button3 {
+    border: none;
+    margin: 15px 10px 0 20px;
+    padding: 2px 7px 3px 7px;
+    color:black;
+    font-size:16px;
+    text-decoration: none;
+    font-family: 'EB Garamond', serif; 
+
+    }
+
+    .button4 {
+        border:none;
+        margin: 30px
+    }
+
+    p{
+        text-align: center;
+    }
+
+    ul {
+        margin: 30px 0 0 120px;
+        list-style-type: square;
+    }
+
+    li {
+        margin:0 0 10px 0;
+    }
+
+    table {
+    border-collapse: collapse;
+    margin: 60px;
+    margin-left: 80px;
+    font-family: 'EB Garamond', serif;
+    width: 270px; 
+    }
+
+    .datatable {
+    border-collapse: collapse;
+    margin: 60px;
+    margin-left: 80px;
+    font-family: 'EB Garamond', serif;
+    width: 60%; 
+    }
+    
+
+    th{
+        font-weight: bold;
+        padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+
+    }
+
+    td {
+        width: 30%;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    }
+    
+    td:hover{background-color:#f5f5f5}
+
+
+    .th {
+        font-weight: bold;
+        padding: 0 0 10px 2px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 17px;
+
+    }
+    .td {
+        
+        padding:3px 3px 0 3px;
+            text-align: left;
+       border: 1px solid #ddd;
+    
+    }
+    
+    .imgsize {
+
+        width:26%;
+
+    }
+
+    .vol1{
+        
+    }
+
+ 
+    .flag{
+        width:7%;
+        margin:0 6px 0 0;
+    }
+    .flag2{
+        width:5%;
+        margin:0 12px 0 0;
+    }
+
+     a   {
+    color:black;
+    text-decoration: none;
+       }
+
+	#fade a {
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; 
+    -webkit-animation: fadein 3s; 
+	}
+	@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+	}
+	@-moz-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+	}
+	@-webkit-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+	}
+
+ 
