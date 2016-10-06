@@ -1,7 +1,7 @@
     h1 {
     text-align: center;
     font-size: 80px;
-    margin:180px 0 60px 0;
+    margin:280px 0 60px 0;
     color:black;
     text-decoration: none;
     font-weight: normal;
@@ -10,8 +10,8 @@
 
     h2  {
     text-align: left;
-    font-size: 35px;
-    margin:20px 0 15px 22px;
+    font-size: 40px;
+    margin:25px 0 12px 28px;
     color:black;
     text-decoration: none;
     font-weight: normal;
@@ -20,19 +20,44 @@
 
     h3  {
 
-    border: none;
-    margin: 60px 0 0 80px;
-    color:black;
-    font-size:18px;
-    text-decoration: none;
-    font-family: 'EB Garamond', serif; 
-
+     font-size: 22px;
+        text-align: left; 
+        font-family: 'EB Garamond', serif; 
+        margin: 0 0 10px 0;
     }
+
     h4{
-        float: right;
-        margin: 7% 38% 0 0;
+        padding-top: 30px;
     }
 
+    h5{
+        font-size: 20px;
+        text-align: left; 
+        font-family: 'EB Garamond', serif; 
+        margin-top: 6px;
+        
+    }
+    h6{
+        font-size: 16px;
+        text-align: left;
+        font-family: 'EB Garamond', serif; 
+        line-height: 130%;
+        margin: 8px;
+       }
+
+    .byline {
+        font-size: 20px;
+        text-align: left;
+        font-family: 'EB Garamond', serif;
+        margin: 0 0 5px 0px;
+    }
+    .byline2{
+        font-size: 19px;
+        text-align: left;
+        font-family: 'EB Garamond', serif;
+        margin: 0 0 10px 0px; 
+    }
+       
     body {
         background-image: url("subtle_dots.png");
     }
@@ -48,17 +73,17 @@
 
     .button2 {
     border: none;
-    margin: 15px 10px 0 20px;
-    padding: 2px 7px 3px 7px;
+    margin: 0px 10px 0 26px;
+    padding: 0px 5px 3px 5px;
     color:black;
-    font-size:16px;
+    font-size:21px;
     text-decoration: none;
     font-family: 'EB Garamond', serif; 
 
     }
 
     .button2:hover {
-        background-color: #F5F5F5;
+        background-color: #e5e5e5;
     }
 
     .button3 {
@@ -74,38 +99,42 @@
 
     .button4 {
         border:none;
-        margin: 30px
+        margin: 100px
+    }
+    .button5 {
+        border:none;
+        margin:50px;
     }
 
     p{
-        text-align: center;
+        text-align: left;
+        line-height: 120%;
     }
 
-    ul {
-        margin: 30px 0 0 120px;
-        list-style-type: square;
-    }
-
-    li {
-        margin:0 0 10px 0;
-    }
 
     table {
     border-collapse: collapse;
-    margin: 60px;
-    margin-left: 80px;
     font-family: 'EB Garamond', serif;
-    width: 270px; 
+    margin:60px 0 0 100px;
+    width: 400px;
+    float:left;
     }
 
     .datatable {
     border-collapse: collapse;
-    margin: 60px;
-    margin-left: 80px;
+    margin: 64px;
+    margin-left: 94px;
     font-family: 'EB Garamond', serif;
-    width: 60%; 
+    width: 65%; 
     }
     
+    .newstable {
+        border-collapse: collapse;
+    font-family: 'EB Garamond', serif;
+    margin:60px 0 40px 100px;
+    width: 720px;
+    float:left;
+    }
 
     th{
         font-weight: bold;
@@ -116,13 +145,12 @@
     }
 
     td {
-        width: 30%;
+        width: 40%;
     padding: 8px;
-    text-align: left;
     border-bottom: 1px solid #ddd;
     }
     
-    td:hover{background-color:#f5f5f5}
+    td:hover{background-color:#e5e5e5}
 
 
     .th {
@@ -133,23 +161,45 @@
     font-size: 17px;
 
     }
+
+    .thnews {
+        font-weight: bold;
+        padding: 0 0 10px 2px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 24px;
+    }
     .td {
         
         padding:3px 3px 0 3px;
-            text-align: left;
+            text-align: center;
        border: 1px solid #ddd;
-    
+      
     }
-    
-    .imgsize {
 
+    
+    .jrnlimg {
+        float: left;
+        display: inline-block;
         width:26%;
 
     }
 
-    .vol1{
-        
+    .newsimg {
+        float: left;
+        display: block;
+        width:30%;
+        padding-right: 5px;
+
     }
+
+    .newsitem1img {
+        display: block;
+        width:100%;
+        padding: 10px 0 10px 0;
+   
+    }
+
 
  
     .flag{
@@ -165,6 +215,16 @@
     color:black;
     text-decoration: none;
        }
+
+       .newsbox{
+        width:40%;
+        margin: 40px 0 40px 80px;
+       }
+
+       .index {
+        text-align: center;
+       }
+
 
 	#fade a {
     animation: fadein 3s;
@@ -196,4 +256,3 @@
     }
 	}
 
- 
