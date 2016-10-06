@@ -42,7 +42,6 @@
         text-align: left;
         font-family: 'EB Garamond', serif; 
         line-height: 130%;
-        margin: 8px;
        }
 
     .byline {
@@ -196,7 +195,7 @@
     .newsitem1img {
         display: block;
         width:100%;
-        padding: 10px 0 10px 0;
+        padding: 10px 6px 10px 6px;
    
     }
 
