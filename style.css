@@ -1,7 +1,7 @@
     h1 {
     text-align: center;
     font-size: 80px;
-    margin:280px 0 60px 0;
+    margin:240px 0 60px 0;
     color:black;
     text-decoration: none;
     font-weight: normal;
@@ -10,7 +10,7 @@
 
     h2  {
     text-align: left;
-    font-size: 40px;
+    font-size: 38px;
     margin:25px 0 12px 28px;
     color:black;
     text-decoration: none;
@@ -18,12 +18,13 @@
     font-family: 'Arapey', serif; 
     }
 
+
     h3  {
 
-     font-size: 22px;
+     font-size: 24px;
         text-align: left; 
         font-family: 'EB Garamond', serif; 
-        margin: 0 0 10px 0;
+        margin: 0 0 12px 0;
     }
 
     h4{
@@ -42,17 +43,16 @@
         text-align: left;
         font-family: 'EB Garamond', serif; 
         line-height: 130%;
-        margin: 8px;
        }
 
     .byline {
-        font-size: 20px;
+        font-size: 19px;
         text-align: left;
         font-family: 'EB Garamond', serif;
         margin: 0 0 5px 0px;
     }
     .byline2{
-        font-size: 19px;
+        font-size: 18px;
         text-align: left;
         font-family: 'EB Garamond', serif;
         margin: 0 0 10px 0px; 
@@ -73,10 +73,10 @@
 
     .button2 {
     border: none;
-    margin: 0px 10px 0 26px;
+    margin: 0px 10px 0 24px;
     padding: 0px 5px 3px 5px;
     color:black;
-    font-size:21px;
+    font-size:20px;
     text-decoration: none;
     font-family: 'EB Garamond', serif; 
 
@@ -190,6 +190,7 @@
         display: block;
         width:30%;
         padding-right: 5px;
+        min-width: 130px;
 
     }
 
@@ -197,18 +198,16 @@
         display: block;
         width:100%;
         padding: 10px 0 10px 0;
-   
     }
-
-
- 
     .flag{
-        width:7%;
+        width:9%;
         margin:0 6px 0 0;
+        min-width: 1.4em;
     }
     .flag2{
-        width:5%;
+        width:7%;
         margin:0 12px 0 0;
+        min-width: 1.13em;
     }
 
      a   {
@@ -218,13 +217,12 @@
 
        .newsbox{
         width:40%;
-        margin: 40px 0 40px 80px;
+        margin: 50px 0 40px 95px;
        }
 
        .index {
         text-align: center;
        }
-
 
 	#fade a {
     animation: fadein 3s;
@@ -256,3 +254,213 @@
     }
 	}
 
+@media only screen and (max-width: 560px) {
+
+.button {
+    padding: 16px;
+    font-size:20px;
+
+
+}
+@media only screen and (max-width: 425px) {
+
+    .newsbox{
+        margin-left: 20px;
+        width:90%;
+    }
+
+    .newstable {
+        width: 96%;
+        margin-left: 8px;
+    }
+
+    .thnews {
+        font-size:20px;
+        text-align: center;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    h6{
+        font-size: 15px;
+    }
+
+    .datatable {
+    margin: 40px 0 0 75px;
+    }
+
+    .button {
+    padding: 16px;
+    font-size:18px;
+
+    }
+    h1 {
+        font-size: 75px;
+        margin-top: 150px;
+    }
+     table { 
+        margin:60px 0 0 12px;
+        width: 400px;
+        
+    }
+    h4 { 
+        font-size: 16px;
+        padding-top: 30px;
+    }
+    .th {
+        text-align: center;
+        font-size: 18px;
+    }
+    h2 {
+        text-align: center;
+        margin-left: 8px;
+    }
+
+    header{
+        text-align: center;
+    }
+
+    .button2 {
+        margin: 0px 15px 0 15px;
+    }
+
+    }
+
+@media only screen and (max-width: 375px) {
+  
+    .newsbox{
+        margin-left: 18px;
+        width:90%;
+    }
+
+     .newstable {
+        width: 96%;
+        margin-left: 7px;
+    }
+
+    .thnews {
+        font-size:19px;
+        text-align: center;
+    }
+
+    h5 {
+        font-size: 19px;
+    }
+
+    h6{
+        font-size: 15px;
+    }
+
+  .datatable {
+    margin: 40px 0 0 70px ;
+    }
+
+    header {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+
+    }
+    h2 {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .button2 {
+        font-size: 18px;
+        margin: 0 10px 0 10px;
+    }
+
+    .button {
+    padding: 13px;
+    font-size:20px;
+
+    }
+    h1 {
+        font-size: 65px;
+        margin-top: 150px;
+    }
+     table { 
+        margin:60px 0 0 9px;
+        width: 356px;
+        
+    }
+    h4 { 
+        font-size: 16px;
+        padding-top: 20px;
+    }
+
+    .th {
+        text-align: center;
+        font-size: 19px;
+    }
+    }
+@media only screen and (max-width: 320px) {
+  
+    .newsbox{
+        margin-left: 16px;
+        width:90%;
+    }
+    .newstable {
+        width: 95%;
+        margin-left: 7px;
+    }
+
+    .thnews {
+        font-size:18px;
+        text-align: center;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    h6{
+        font-size: 14px;
+    }
+
+  .datatable {
+    margin: 40px 0 0 20px;
+    width: 85%;
+    }
+
+    h2 {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .button2 {
+        font-size: 18px;
+        margin: 0 6px 0 6px;
+    }
+    
+    .button {
+    padding: 10px;
+    font-size:20px;
+
+    }
+    h1 {
+        font-size: 55px;
+        margin-top: 150px;
+    }
+
+    table { 
+        margin:60px 0 0 7.5px;
+        width: 303px;
+        
+    }
+    h4 { 
+        font-size: 14px;
+        padding-top: 15px;
+    }
+    .th {
+        text-align: center;
+    }
+
+ }
